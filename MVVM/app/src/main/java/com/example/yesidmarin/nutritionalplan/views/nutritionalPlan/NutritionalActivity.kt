@@ -4,8 +4,11 @@ package com.example.yesidmarin.nutritionalplan.views.nutritionalPlan
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.yesidmarin.nutritionalplan.R
+import com.example.yesidmarin.nutritionalplan.data.dto.EmpleoyeeDTO
+import com.example.yesidmarin.nutritionalplan.data.model.EmpleoyeeModel
 import com.example.yesidmarin.nutritionalplan.utility.Utility
 import com.example.yesidmarin.nutritionalplan.views.recycleView.RecycleViewActivity
 import kotlinx.android.synthetic.main.activity_plan.*
@@ -40,8 +43,12 @@ class NutritionalActivity : AppCompatActivity() {
             startActivity(startedRecycleViewActivity)
         }
 
+        var sd: MutableList<List<EmpleoyeeModel>> = ArrayList()
         btshowInService.setOnClickListener {
             Utility().showToast(this,"nothing data")
+            nutritionalPlanViewModel.getEmpleoyees().observe(this, Observer<List<EmpleoyeeModel>>{
+                sd.add(it)
+            })
         }
 
     }
