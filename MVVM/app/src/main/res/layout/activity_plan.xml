@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".views.nutritionalPlan.NutritionalActivity">
+
+    <TextView
+            android:text="Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.18" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toTopOf="@+id/tvNumberId"
+            app:layout_constraintVertical_bias="0.914"/>
+    <EditText
+            android:layout_width="266dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:text=""
+            android:ems="10"
+            android:hint="Type Id"
+            android:id="@+id/tvNumberId"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textname" android:layout_marginBottom="32dp"/>
+
+    <TextView
+            android:text="Plan nutritional"
+            android:layout_width="266dp"
+            android:layout_height="21dp"
+            android:id="@+id/textname" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btAddNewPlan" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.687"
+    />
+    <EditText
+            android:layout_width="266dp"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="Type one plan nutritional"
+            android:ems="10"
+            android:id="@+id/tvPlanNutritional"
+            app:layout_constraintTop_toBottomOf="@+id/textname"
+            app:layout_constraintBottom_toTopOf="@+id/btAddNewPlan" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.091"/>
+
+    <Button
+            android:text="Add new plan to Realm"
+            android:layout_width="239dp"
+            android:layout_height="54dp"
+            android:id="@+id/btAddNewPlan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/tvPlanNutritional"
+            app:layout_constraintBottom_toTopOf="@+id/btShowRegister"/>
+    <Button
+            android:text="Show registers in realm"
+            android:layout_width="239dp"
+            android:layout_height="54dp"
+            android:id="@+id/btShowRegister"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/btAddNewPlan"
+            app:layout_constraintBottom_toTopOf="@+id/btshowInService"/>
+
+    <Button android:text="Show registers in Service"
+            android:id="@+id/btshowInService"
+            android:layout_width="239dp" android:layout_height="54dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="60dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btShowRegister"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
