@@ -1,4 +1,4 @@
-package com.example.yesidmarin.nutritionalplan.views.recycleView
+package com.example.yesidmarin.nutritionalplan.views.nutritionalPlanView
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.yesidmarin.nutritionalplan.R
 import kotlinx.android.synthetic.main.list_item.view.*
 
-class RecycleViewAdapter(var data: List<String>): RecyclerView.Adapter<RecycleViewAdapter.MyViewHolder>(), RecycleInteraction{
+class NutritionalViewAdapter(var data: List<String>): RecyclerView.Adapter<NutritionalViewAdapter.MyViewHolder>(), NutritionalInteraction{
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
 
@@ -27,7 +27,7 @@ class RecycleViewAdapter(var data: List<String>): RecyclerView.Adapter<RecycleVi
     inner class MyViewHolder(itemVIew: View) : RecyclerView.ViewHolder(itemVIew){
 
         private var currentPlan: String? = null
-        private var recycleInteraction = RecycleViewAdapter(data)
+        private var recycleInteraction = NutritionalViewAdapter(data)
 
         init {
             itemVIew.setOnClickListener {

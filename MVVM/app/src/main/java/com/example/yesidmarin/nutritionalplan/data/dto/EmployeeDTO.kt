@@ -2,16 +2,16 @@ package com.example.yesidmarin.nutritionalplan.data.dto
 
 import com.google.gson.annotations.SerializedName
 
-class EmpleoyeeDTO{
+class EmployeeDTO{
 
     @SerializedName("id")
     var id: String? = null
     @SerializedName("employee_name")
     var employeeName: String? = null
-    @SerializedName("empleoyee_salary")
-    var empleoyeeSalary: String? = null
-    @SerializedName("empleoyee_age")
-    var empleoyeeAge: String? = null
+    @SerializedName("employee_salary")
+    var employeeSalary: String? = null
+    @SerializedName("employee_age")
+    var employeeAge: String? = null
     @SerializedName("profile_image")
-    var profile_image: String? = null
+    var profileImage: String? = null
 }

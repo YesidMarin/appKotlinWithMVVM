@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Preferences Key -->
+    <string name="shared_key_userType">userType</string>
+
+    <string name="userType">CONSULTOR</string>
+
+</resources>
