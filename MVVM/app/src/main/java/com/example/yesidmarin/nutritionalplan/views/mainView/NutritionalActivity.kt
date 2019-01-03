@@ -33,7 +33,7 @@ class NutritionalActivity : AppCompatActivity() {
 
         nutritionalPlanViewModel = ViewModelProviders.of(this).get(NutritionalPlanViewModel::class.java)
         nutritionalPlanViewModel?.showEmployee()?.observe(this,Observer<EmployeeModel>{
-            Utility().showToast(this,"Result: id ${it.id} \n name ${it.employeeName} \n age ${it.employeeAge} \n salary ${it.employeeSalary}")
+            Utility.showToast(this,"Result: id ${it.id} \n name ${it.employeeName} \n age ${it.employeeAge} \n salary ${it.employeeSalary}")
         })
     }
 
@@ -44,12 +44,12 @@ class NutritionalActivity : AppCompatActivity() {
             val numberId: String = tvNumberId.text.toString()
             if (!name.isEmpty() && !numberId.isEmpty()){
                 if (nutritionalPlanViewModel?.addNewNutritionalPlan(name,numberId) ?: false){
-                    Utility().showToast(this,"Add success")
+                    Utility.showToast(this,"Add success")
                 } else {
-                    Utility().showToast(this,"Registration already exists with that id.")
+                    Utility.showToast(this,"Registration already exists with that id.")
                 }
             } else {
-                Utility().showToast(this,"Empty fields")
+                Utility.showToast(this,"Empty fields")
             }
         }
         btShowRegister.setOnClickListener{
@@ -67,13 +67,13 @@ class NutritionalActivity : AppCompatActivity() {
             if (!numberId.isEmpty()){
                 nutritionalPlanViewModel?.getEmployee(numberId)
             } else {
-                Utility().showToast(this,"Empty fields")
+                Utility.showToast(this,"Empty fields")
             }
         }
 
         btShowPreferenceSaved.setOnClickListener {
             val typeUser = SharedPreferencesUtil.getPreference(RUtil.R_string(R.string.shared_key_userType), String::class.java)
-            Utility().showToast(this, typeUser)
+            Utility.showToast(this, typeUser)
         }
 
 

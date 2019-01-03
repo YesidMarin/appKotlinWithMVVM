@@ -34,7 +34,7 @@ class NutritionalInteractor
 
     fun queryNutritionalPlan():MutableList<String>{
 
-        val nutritionalPlanQuery = realm.where(NutricionalPlan::class.java).findAll()!!
+        val nutritionalPlanQuery = realm.where(NutricionalPlan::class.java).findAll()
         var plan: String
         val isQuery: MutableList<String> = ArrayList()
         if (nutritionalPlanQuery.count() > 0){

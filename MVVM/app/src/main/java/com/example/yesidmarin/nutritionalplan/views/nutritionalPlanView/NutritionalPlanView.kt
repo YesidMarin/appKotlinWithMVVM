@@ -16,7 +16,7 @@ import kotlinx.android.synthetic.main.activity_recycle_view.*
 interface NutritionalInteraction{
 
     fun showToast(context: Context, msn: String) {
-        Utility().showToast(context, msn)
+        Utility.showToast(context, msn)
     }
 }
 
