@@ -12,7 +12,7 @@ class NutritionalPlanViewModel: ViewModel() {
     private val nutritionalInteractor = NutritionalInteractor()
     private lateinit var listPlans: MutableLiveData<MutableList<String>>
     private lateinit var employees: MutableLiveData<MutableList<EmployeeModel>>
-    private lateinit var employee: MutableLiveData<EmployeeModel>
+    lateinit var employee: MutableLiveData<EmployeeModel>
 
     // MutableLiveData variables initial
     init {
@@ -22,7 +22,6 @@ class NutritionalPlanViewModel: ViewModel() {
             employee = MutableLiveData()
         }
     }
-
     // Add new nutritional plan in Realm
     fun addNewNutritionalPlan(name: String, id: String): Boolean{
         val idEmployee = id.toLong()

@@ -18,32 +18,33 @@ import kotlinx.android.synthetic.main.activity_plan.*
 
 class NutritionalActivity : AppCompatActivity() {
 
-    private var nutritionalPlanViewModel: NutritionalPlanViewModel? = null
+    private lateinit var nutritionalPlanViewModel: NutritionalPlanViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_plan)
 
         setupModel()
-        setupActions()
+        setupView()
     }
 
 
     private fun setupModel() {
 
         nutritionalPlanViewModel = ViewModelProviders.of(this).get(NutritionalPlanViewModel::class.java)
-        nutritionalPlanViewModel?.showEmployee()?.observe(this,Observer<EmployeeModel>{
+        nutritionalPlanViewModel.employee.observe(this,Observer<EmployeeModel>{
             Utility.showToast(this,"Result: id ${it.id} \n name ${it.employeeName} \n age ${it.employeeAge} \n salary ${it.employeeSalary}")
         })
     }
 
-    private fun setupActions(){
-
+    private fun setupView(){
+        
+        title = "Example MVVM"
         btAddNewPlan.setOnClickListener {
             val name: String = tvPlanNutritional.text.toString()
             val numberId: String = tvNumberId.text.toString()
             if (!name.isEmpty() && !numberId.isEmpty()){
-                if (nutritionalPlanViewModel?.addNewNutritionalPlan(name,numberId) ?: false){
+                if (nutritionalPlanViewModel.addNewNutritionalPlan(name,numberId) ?: false){
                     Utility.showToast(this,"Add success")
                 } else {
                     Utility.showToast(this,"Registration already exists with that id.")
@@ -65,7 +66,7 @@ class NutritionalActivity : AppCompatActivity() {
         btnSearch.setOnClickListener {
             val numberId: String = etSearchNumber.text.toString()
             if (!numberId.isEmpty()){
-                nutritionalPlanViewModel?.getEmployee(numberId)
+                nutritionalPlanViewModel.getEmployee(numberId)
             } else {
                 Utility.showToast(this,"Empty fields")
             }

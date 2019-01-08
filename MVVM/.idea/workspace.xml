@@ -17,10 +17,8 @@
   <component name="ChangeListManager">
     <list default="true" id="29087d01-65a5-4fcb-a704-67a47e5de402" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/data/interactors/NutritionalInteractor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/data/interactors/NutritionalInteractor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/utility/Utility.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/utility/Utility.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/nutritionalPlanView/NutritionalPlanView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/nutritionalPlanView/NutritionalPlanView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalPlanViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalPlanViewModel.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,15 +41,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NutritionalInteractor.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/data/interactors/NutritionalInteractor.kt">
+      <file leaf-file-name="NutritionalActivity.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeViewAdapter.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/employeesView/EmployeeViewAdapter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NutritionalPlanViewModel.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalPlanViewModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding>
-                <element signature="e#65#519#0" expanded="true" />
+                <element signature="e#63#327#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_plan.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_plan.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -2548,19 +2576,19 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/ApplicationContext.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/employeesView/EmployeeViewActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_empleoyees.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_plan.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/data/repository/EmployeeRepository.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/utility/Utility.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/data/interactors/NutritionalInteractor.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalPlanViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/nutritionalPlanView/NutritionalPlanView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/data/interactors/NutritionalInteractor.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_plan.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalPlanViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalActivity.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1917" />
-    <option name="y" value="-157" />
+    <option name="x" value="-1852" />
+    <option name="y" value="-72" />
     <option name="width" value="1916" />
     <option name="height" value="1057" />
   </component>
@@ -2572,6 +2600,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2582,6 +2611,11 @@
             <path>
               <item name="MVVM" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="MVVM" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
@@ -2589,21 +2623,6 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="nutritionalplan" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MVVM" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="nutritionalplan" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MVVM" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="nutritionalplan" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="interactors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MVVM" type="1abcf292:AndroidViewProjectNode" />
@@ -2611,6 +2630,14 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="nutritionalplan" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MVVM" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="nutritionalplan" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="employeesView" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MVVM" type="1abcf292:AndroidViewProjectNode" />
@@ -2622,26 +2649,14 @@
             </path>
             <path>
               <item name="MVVM" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="nutritionalplan" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MVVM" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="MVVM" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2651,6 +2666,8 @@
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/yesidmarin/Documents/GitHub/appKotlinWithMVVM/MVVM/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/nutritionalPlanView/NutritionalViewAdapter.kt" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="Nexus_6_API_27" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -2805,7 +2822,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1917" y="-157" width="1916" height="1057" extended-state="0" />
+    <frame x="-1852" y="-72" width="1916" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" sideWeight="0.4989339" weight="0.32870865" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.32870865" />
@@ -2815,7 +2833,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.42369264" side_tool="true" weight="0.24866596" />
       <window_info anchor="right" id="Preview" order="4" weight="0.46798292" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57630736" visible="true" weight="0.24866596" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57630736" weight="0.24866596" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.32870865" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Logcat" order="7" sideWeight="0.49946752" weight="0.32870865" />
@@ -2824,20 +2842,20 @@
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18623266" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946752" weight="0.2411953" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32977587" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" weight="0.32977587" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840257" weight="0.49306297" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="StringPreview" />
+      <window_info anchor="right" id="StringPreview" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32977587" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -2944,13 +2962,6 @@ import java.lang.Class</custom-info>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.4/b004508ed104454bec91410bf5804a327d431269/rxjava-2.2.4-sources.jar!/io/reactivex/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="12083" column="28" selection-start-line="12083" selection-start-column="28" selection-end-line="12083" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/c158207594782b42f3a2e08a5a029eb3319e4404/lifecycle-livedata-core-2.0.0-sources.jar!/androidx/lifecycle/LiveData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -2972,13 +2983,7 @@ import java.lang.Class</custom-info>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/data/repository/IEmpleoyeeRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/data/repository/IEmpleoyeeRepository.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/data/model/Food.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -3005,36 +3010,6 @@ import java.lang.Class</custom-info>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_recycle_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employees.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_plan.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-571">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.4/b004508ed104454bec91410bf5804a327d431269/rxjava-2.2.4-sources.jar!/io/reactivex/internal/observers/LambdaObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -3046,13 +3021,6 @@ import java.lang.Class</custom-info>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="166" column="55" selection-start-line="166" selection-start-column="55" selection-end-line="166" selection-end-column="55" />
-          <folding>
-            <element signature="e#1820#1821#0" expanded="true" />
-            <element signature="e#1871#1872#0" expanded="true" />
-            <element signature="e#4680#4681#0" expanded="true" />
-            <element signature="e#4761#4762#0" expanded="true" />
-            <element signature="e#4812#4813#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3060,11 +3028,6 @@ import java.lang.Class</custom-info>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-          <folding>
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3072,15 +3035,6 @@ import java.lang.Class</custom-info>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#1461#1462#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#2003#2004#0" expanded="true" />
-            <element signature="e#2118#2119#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3095,16 +3049,6 @@ import java.lang.Class</custom-info>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="399" selection-start-line="399" selection-end-line="399" />
-          <folding>
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#6369#6370#0" expanded="true" />
-            <element signature="e#6420#6421#0" expanded="true" />
-            <element signature="e#8862#8863#0" expanded="true" />
-            <element signature="e#8913#8914#0" expanded="true" />
-            <element signature="e#8981#8982#0" expanded="true" />
-            <element signature="e#9032#9033#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3226,23 +3170,6 @@ import java.lang.Class</custom-info>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalPlanViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="18" column="98" lean-forward="true" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
-          <folding>
-            <element signature="e#63#327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/employeesView/EmployeeViewAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/employeesView/EmployeeViewActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -3273,13 +3200,6 @@ import java.lang.Class</custom-info>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="927">
-          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -3317,11 +3237,70 @@ import java.lang.Class</custom-info>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/data/interactors/NutritionalInteractor.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_recycle_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
+      <provider editor-type-id="text-editor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employees.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_plan.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/employeesView/EmployeeViewAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalPlanViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
-            <element signature="e#65#519#0" expanded="true" />
+            <element signature="e#63#327#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/yesidmarin/nutritionalplan/views/mainView/NutritionalActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
         </state>
       </provider>
     </entry>
