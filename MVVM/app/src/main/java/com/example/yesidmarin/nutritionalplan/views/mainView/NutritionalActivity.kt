@@ -38,7 +38,7 @@ class NutritionalActivity : AppCompatActivity() {
     }
 
     private fun setupView(){
-        
+
         title = "Example MVVM"
         btAddNewPlan.setOnClickListener {
             val name: String = tvPlanNutritional.text.toString()
