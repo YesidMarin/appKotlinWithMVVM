@@ -1,7 +1,7 @@
 package com.example.yesidmarin.nutritionalplan.data.interactors
 
 import com.example.yesidmarin.nutritionalplan.data.model.EmployeeModel
-import com.example.yesidmarin.nutritionalplan.data.model.NutricionalPlan
+import com.example.yesidmarin.nutritionalplan.data.database.entities.NutricionalPlanEntity
 import com.example.yesidmarin.nutritionalplan.data.repository.EmployeeRepository
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -21,7 +21,7 @@ class NutritionalInteractor
         var isSuccess = false
         try {
             realm.executeTransaction {
-                val nutritionalPlan = realm.createObject(NutricionalPlan::class.java, id)
+                val nutritionalPlan = realm.createObject(NutricionalPlanEntity::class.java, id)
                 nutritionalPlan.name = name
                 isSuccess = true
             }
@@ -34,7 +34,7 @@ class NutritionalInteractor
 
     fun queryNutritionalPlan():MutableList<String>{
 
-        val nutritionalPlanQuery = realm.where(NutricionalPlan::class.java).findAll()
+        val nutritionalPlanQuery = realm.where(NutricionalPlanEntity::class.java).findAll()
         var plan: String
         val isQuery: MutableList<String> = ArrayList()
         if (nutritionalPlanQuery.count() > 0){
